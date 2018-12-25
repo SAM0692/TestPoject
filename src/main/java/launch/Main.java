@@ -12,7 +12,7 @@ public class Main {
 
     String webappDirLocation = "src/main/webapp/";
     Tomcat tomcat = new Tomcat();
-    tomcat.setPort(8080);
+    tomcat.setPort(8000);
 
     tomcat.setBaseDir(".");
     tomcat.getHost().setAppBase(".");
